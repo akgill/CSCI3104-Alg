@@ -1,11 +1,16 @@
 This repository contains the python codes written for the University of Colorado-Boulder class CSCI3104: Algorithms, Fall of 2013.
 
 A description of functions:
- - avgDist2Prime: computes avg. numerical distance from nSamp numbers \in {0,10^101 - 1} to the next prime number. calls both `nextprime` and `getrand100`
- - avgPcntDist2Prime: same as `avgDist2Prime`, but computes fractional distance to next prime
- - badRSADecrypter: demonstrates the calculation of the decryption key for an encrypter using N=p rather than N=p*q
- - euclidsExtended: computes gcds and inverses using Euclid's Extended Algorithm
- - getrand100: produces a random 100 digit decimal number 
+ - *avgDist2Prime*: 
+    + computes avg. numerical distance from nSamp numbers \in {0,10^101 - 1} to the next prime number. calls both `nextprime` and `getrand100`
+ - *avgPcntDist2Prime*: 
+    + same as `avgDist2Prime`, but computes fractional distance to next prime
+ - *badRSADecrypter*: 
+    + demonstrates the calculation of the decryption key for an encrypter using N=p rather than N=p*q
+ - *euclidsExtended*: 
+    + computes gcds and inverses using Euclid's Extended Algorithm
+ - *getrand100*: 
+    + produces a random 100 digit decimal number 
  - linear_fibonacci: computes the nth fibonacci number in linear time
  - modExp: a modular exponentiation function, called as modExp(a, b, N), computing a^b mod N
  - nextprime: finds the nextprime number after the input number. calls `primeTest`
